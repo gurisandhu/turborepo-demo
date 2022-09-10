@@ -1,4 +1,13 @@
 import * as React from "react";
-export const Button = () => {
-	return <button type="button">Boop</button>;
+
+type Prop = {
+	color: string;
+};
+
+export const Button = ({ color }: Prop) => {
+	return (
+		<button type="button" style={{ backgroundColor: color }}>
+			Boop
+		</button>
+	);
 };

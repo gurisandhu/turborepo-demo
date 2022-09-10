@@ -3,16 +3,9 @@
 	"display": "React Library",
 	"extends": "./base.json",
 	"compilerOptions": {
-		"jsx": "react-jsx",
-		"lib": [
-			"es5",
-			"es6",
-			"dom",
-			"DOM.Iterable",
-			"ScriptHost",
-			"ES2016.Array.Include"
-		],
+		"lib": ["ES2015"],
 		"module": "ESNext",
-		"target": "es6"
+		"target": "ES6",
+		"jsx": "react-jsx"
 	}
 }
